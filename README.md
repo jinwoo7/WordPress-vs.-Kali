@@ -23,7 +23,26 @@ Time spent: **4** hours spent in total
   3rd step..
   Press submit. The page will refresh and you will recieve endless alert messages.
   
-1. (Required) Vulnerability Name or ID
+2. (Required) WordPress  4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
+  - [x] Summary: 
+    - Vulnerability types: XSS Injection
+    - Tested in version: 4.1.1
+    - Fixed in version: 4.1.2
+  - [x] GIF Walkthrough: 
+  <img src="./xssInjection2/xssInjection.gif" alt="XSS Injection GIF"/>
+  - [x] Steps to recreate: 
+  1st step..
+  Log into Wordpress 4.1.1 version's website.
+  <img src="./xssInjection/logingIn.PNG"/ alt="longing in">
+  2nd step..
+  Comment on a post (Inject a following script below)
+  <img src="./xssInjection/xssInjectionHowTo.png"/ alt="longing in">
+  3rd step..
+  Press update. The page will refresh and you will recieve endless alert messages.
+  - [x] Affected source code:
+    - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
+    
+3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -32,33 +51,6 @@ Time spent: **4** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
