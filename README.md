@@ -27,7 +27,7 @@ Time spent: **4** hours spent in total
   - [x] Summary: 
     - Vulnerability types: XSS Injection
     - Tested in version: 4.1.1
-    - Fixed in version: 4.1.2
+    - Fixed in version: 4.2.13
   - [x] GIF Walkthrough: 
   <img src="./xssInjection2/xssInjection.gif" alt="XSS Injection GIF"/>
   - [x] Steps to recreate: 
@@ -42,19 +42,37 @@ Time spent: **4** hours spent in total
   - [x] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
     
-3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+3. (Required) WordPress 3.6.0-4.7.2 - Authenticated Cross-Site Scripting (XSS) via Media File Metadata
+  - [X] Summary: 
+    - Vulnerability types: XSS Injection
+    - Tested in version: 4.2.1
+    - Fixed in version: 4.2.13
+  - [X] GIF Walkthrough: 
+  <img src="./xssInjection3/xssInjection.gif" alt="XSS Injection GIF"/>
+  - [x] Steps to recreate: 
+  1st step..
+  Log into Wordpress 4.1.1 version's website.
+  <img src="./xssInjection/logingIn.PNG"/ alt="longing in">
+  2nd step..
+  Go to the dashboard menu by hovering over the website name on the top left and clicking Dashboard.
+  <img src="./xssInjection3/manu.PNG"/ alt="manu">
+  3rd step..
+  Click Media on the side panel. Drag and drop the modified mp3 file (xss.mp3) to upload it multiple times.
+  <img src="./xssInjection3/media.PNG"/ alt="media">
+  4th step..
+  Click Posts on the side panel. Either Create a new post or edit an existing post.
+  <img src="./xssInjection3/post.PNG"/ alt="post">
+  5th step..
+  click Add Media -> Create Audio Playlist. Select all of the uploaded xss.mp3 files. Notice that the modifications are shown on the description of the file.
+  6th step..
+  Press Create a new playlist. The page will refresh and you will recieve alert messages.
+  
+  - [x] Affected source code:
+    - [Link 1](https://github.com/WordPress/WordPress/commit/28f838ca3ee205b6f39cd2bf23eb4e5f52796bd7)
 
 ## Assets
 
-List any additional assets, such as scripts or files
+The xss.mp3 file from the 3rd vulnerability explot can be found in xssInjection3 directory in this git repository. 
 
 ## Resources
 
@@ -69,7 +87,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Jinwoo Yom]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
