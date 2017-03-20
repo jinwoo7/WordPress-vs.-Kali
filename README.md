@@ -81,9 +81,6 @@ The xss.mp3 file from the 3rd vulnerability explot can be found in xssInjection3
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Notes
-
-Describe any challenges encountered while doing the work
 
 ## License
 
