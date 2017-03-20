@@ -19,7 +19,7 @@ Time spent: **4** hours spent in total
   <img src="./xssInjection/logingIn.PNG"/ alt="longing in">
   2nd step..
   Comment on a post (Inject a following script below)
-  <img src="./xssInjection/xssInjectionHowTo.PNG"/ alt="longing in">
+  <img src="./xssInjection/xssInjectionHowTo.png"/ alt="longing in">
   3rd step..
   Press submit. The page will refresh and you will recieve endless alert messages.
   
