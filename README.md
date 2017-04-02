@@ -6,14 +6,14 @@ Time spent: **4** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) WordPress <= 4.1.1 - Unauthenticated Stored Cross-Site Scripting (XSS)
-  - [x] Summary: 
+1\. [x]  (Required) WordPress <= 4.1.1 - Unauthenticated Stored Cross-Site Scripting (XSS)
+  * [x] Summary: 
     - Vulnerability types: XSS Injection
     - Tested in version: Wordpress 4.1.1
     - Fixed in version: Wordpress 4.1.2
-  - [x] GIF Walkthrough: 
+  * [x] GIF Walkthrough: 
   <img src="./xssInjection/xssInjection.gif" alt="XSS Injection GIF"/>
-  - [x] Steps to recreate: 
+  * [x] Steps to recreate: 
   1st step..
   Log into Wordpress 4.1.1 version's website.
   <img src="./xssInjection/logingIn.PNG"/ alt="longing in">
@@ -23,14 +23,14 @@ Time spent: **4** hours spent in total
   3rd step..
   Press submit. The page will refresh and you will recieve endless alert messages.
   
-2. (Required) WordPress  4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
-  - [x] Summary: 
+2\. [x]  (Required) WordPress  4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
+  * [x]  Summary: 
     - Vulnerability types: XSS Injection
     - Tested in version: 4.1.1
     - Fixed in version: 4.2.13
-  - [x] GIF Walkthrough: 
+  * [x]  GIF Walkthrough: 
   <img src="./xssInjection2/xssInjection.gif" alt="XSS Injection GIF"/>
-  - [x] Steps to recreate: 
+  * [x]  Steps to recreate: 
   1st step..
   Log into Wordpress 4.1.1 version's website.
   <img src="./xssInjection/logingIn.PNG"/ alt="longing in">
@@ -39,17 +39,17 @@ Time spent: **4** hours spent in total
   <img src="./xssInjection/xssInjectionHowTo.png"/ alt="longing in">
   3rd step..
   Press update. The page will refresh and you will recieve endless alert messages.
-  - [x] Affected source code:
+  * [x] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
     
-3. (Required) WordPress 3.6.0-4.7.2 - Authenticated Cross-Site Scripting (XSS) via Media File Metadata
-  - [X] Summary: 
+3\. [x]  (Required) WordPress 3.6.0-4.7.2 - Authenticated Cross-Site Scripting (XSS) via Media File Metadata
+  * [X] Summary: 
     - Vulnerability types: XSS Injection
     - Tested in version: 4.2.1
     - Fixed in version: 4.2.13
-  - [X] GIF Walkthrough: 
+  * [X] GIF Walkthrough: 
   <img src="./xssInjection3/xssInjection.gif" alt="XSS Injection GIF"/>
-  - [x] Steps to recreate: 
+  * [x] Steps to recreate: 
   1st step..
   Log into Wordpress 4.1.1 version's website.
   <img src="./xssInjection/logingIn.PNG"/ alt="longing in">
@@ -67,7 +67,7 @@ Time spent: **4** hours spent in total
   6th step..
   Press Create a new playlist. The page will refresh and you will recieve alert messages.
   
-  - [x] Affected source code:
+  * [x] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/28f838ca3ee205b6f39cd2bf23eb4e5f52796bd7)
 
 ## Assets
